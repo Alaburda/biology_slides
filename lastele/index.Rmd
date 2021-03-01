@@ -1,0 +1,61 @@
+---
+title: "Ląstelės biologija"
+subtitle: "Didžioji mažiausio vieneto apžvalga"
+author: 'Paulius Alaburda <br> Duomenų analitikas <br><br> <a href="https://github.com/Alaburda"><i class="fa fa-github fa-fw"></i>&nbsp; Alaburda</a><br> <a href="https://twitter.com/p_alab"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @p_alab</a><br> <a href="mailto:info@statistikas.lt"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; info@statistikas.lt</a><br>'
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/my-theme.css", "css/my-fonts.css"]
+    seal: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: "16:9"  
+    includes:
+      in_header: header.html  
+---
+
+```{r setup, include=FALSE}
+
+library(dplyr)
+library(xaringan)
+library(xaringanExtra)
+
+xaringanExtra::use_panelset()
+
+knitr::opts_chunk$set(collapse = TRUE)
+
+```
+
+class: title-slide, right, middle
+background-image: url("images/cell_1.jpg")
+background-position: left
+background-size: contain
+
+.pull-right[
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+### `r rmarkdown::metadata$date`
+]
+
+---
+
+Ląstelės organelės:
+
+* Branduolys
+* Šiurkštusis endoplazminis tinklas
+* Lygusis endoplazminis tinklas
+* Goldžio kompleksas
+* Mitochondrija
+* Citoskeletas
+* Lizosomos
+* ir dar daug kitų organelių!
+
+---
